@@ -130,7 +130,7 @@ function changeFortuneStyle(fontColor, bgColor, borderColor){
         fontSize: randomSize
     };
     localStorage.setItem("fortuneStyle", JSON.stringify(styleToSave));
-    console.log("Changed & save box style");
+    console.log("saves box style");
 }
 
 
